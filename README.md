@@ -8,7 +8,7 @@ run flutter test on pre-commit hooks
 Add the following in your `.pre-commit-config.yaml`:
 ```yaml
 - repo: https://github.com/Virtomize/flutter-test-pre-commit
-  rev: "master"
+  rev: "main"
   hooks:
     - id: flutter-test
 ```
